@@ -1,0 +1,54 @@
+{
+  "source": ["tokens/**/*.json"],
+  "platforms": {
+    "css": {
+      "transformGroup": "css",
+      "buildPath": "build/css/",
+      "files": [
+        {
+          "destination": "_variables.css",
+          "format": "css/variables"
+        }
+      ],
+      "options": {
+        "outputReferences": true
+      }
+    },
+    "storybook": {
+      "transformGroup": "storybook",
+      "buildPath": "build/stories/",
+      "files": [
+        {
+          "destination": "colors.mdx",
+          "format": "stories/colors",
+          "filter": "category/color",
+          "options": {
+            "title": "Colors",
+            "description": "The design system color palette consisting of a collection of color scales in a range of contrast ratios from the background color."
+          }
+        },
+        {
+          "destination": "typography.mdx",
+          "format": "stories/typography",
+          "filter": "category/font",
+          "options": {
+            "title": "Typography",
+            "description": "The design system typography consisting of a collection of font families, sizes, and weights."
+          }
+        },
+        {
+          "destination": "spacing-scale.mdx",
+          "format": "stories/spacing",
+          "filter": "type/spacing",
+          "options": {
+            "title": "Spacing",
+            "description": "The design system spacing scale used for padding and margins"
+          }
+        }
+      ],
+      "options": {
+        "outputReferences": true
+      }
+    }
+  }
+}

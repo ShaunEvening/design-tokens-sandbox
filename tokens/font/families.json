@@ -1,0 +1,14 @@
+{
+  "font": {
+    "families": {
+      "sans": {
+        "value": "system-ui ui-sans-serif",
+        "comment": "Default font for the design system."
+      },
+      "mono": {
+        "value": "Menlo Monaco \"Lucida Console\" \"Liberation Mono\" \"DejaVu Sans Mono\" \"Bitstream Vera Sans Mono\" \"Courier New\" monospace",
+        "comment": "Used for inline code and code snippets."
+      }
+    }
+  }
+}

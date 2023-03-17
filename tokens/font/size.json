@@ -1,0 +1,34 @@
+{
+  "font": {
+    "size": {
+      "heading": {
+        "value": "4.5",
+        "comment": ""
+      },
+      "subheading": {
+        "value": "3.75",
+        "comment": ""
+      },
+      "xl": {
+        "value": "2.25",
+        "comment": ""
+      },
+      "lg": {
+        "value": "1.5",
+        "comment": ""
+      },
+      "md": {
+        "value": "1.25",
+        "comment": ""
+      },
+      "sm": {
+        "value": "1.125",
+        "comment": ""
+      },
+      "xs": {
+        "value": "1",
+        "comment": ""
+      }
+    }
+  }
+}

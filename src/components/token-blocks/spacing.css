@@ -1,0 +1,37 @@
+.spacing-scale {
+    padding: 0.8rem 2rem;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #dddddd;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px 0px;
+    color: #222222
+}
+
+.spacing-scale--item {
+    display: flex;
+    align-items: center;
+}
+
+.spacing-scale--item .spacing-scale--item--attributes {
+    padding: 0.2rem 1.25rem;
+    margin-right: 2rem;
+    border-right: 1px solid #dddddd;
+    flex-basis: 12%;
+}
+
+.spacing-scale--item--attributes span {
+    display: block;
+    white-space: nowrap;
+    font-weight: 500;
+    color: #696969
+}
+
+.spacing-scale--item--attributes span.name {
+    font-weight: 600;
+    color: #222222
+}
+
+.spacing-scale .spacing-scale--item--representative {
+    height: 30px;
+    background-color: #147386;
+}
